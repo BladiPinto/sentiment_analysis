@@ -1,0 +1,82 @@
+/* Estilos para el panel de la barra lateral */
+.sidebarPanel {
+    background-color: #a01717;
+    padding: 15px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilos para los botones de acción */
+  .actionButton {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .actionButton:hover {
+    background-color: #286090;
+  }
+  
+  /* Estilos para el resultado de la salida verbatimTextOutput */
+  .verbatimTextOutput {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    white-space: pre-wrap;
+  }
+  
+  /* Estilos para las tablas */
+  .dataTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .dataTable th,
+  .dataTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .dataTable th {
+    background-color: #f8f8f8;
+  }
+  
+  /* Estilos para los gráficos */
+  .plotOutput {
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el título del panel */
+  .titlePanel {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos generales */
+  body {
+    margin: 20px;
+  }
+  
+  /* Estilos para las divisiones */
+  .sidebarLayout {
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: 1;
+    margin-right: 20px;
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+  }
+  
+  .mainPanel {
+    flex: 2;
+  }
+  
